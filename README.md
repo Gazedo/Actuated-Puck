@@ -19,6 +19,7 @@ Same as the p variable but for the derivative constant.
   * where the 000 is any possible combination of 3 digits.
  4. There will never be any feedback from the puck as the transmit line of the UART port is used to feed information to the sd card.
 
+
 ##Planned upgrades
 Teensy 3.1
   * Would eliminate the 5V regulator and the 3V3 regulator.
