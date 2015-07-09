@@ -4,6 +4,7 @@
  1. In order to connect to the puck you must have a bluetooth serial console.
  2. After installing a serial console such as putty, connect to the puck via bluetooth.
    * It will be called BT-42
+   * If asked for a passcode try either 0000 or 1234, 0000 worked for me but in reality the puck doesn't have a security passphase so either should work.
  3. From there the command set is a set of 4 digits. The first digit is a switch variable and the last 3 are the command digits. The possible combinations are:
    * s000
 Sets a new degree for the Set point for the PID algorithm.
