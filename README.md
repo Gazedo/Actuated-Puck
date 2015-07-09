@@ -1,7 +1,6 @@
 # Actuated-Puck
 
-## How To:
-Connect and Command
+## How To Connect and Command
  1. In order to connect to the puck you must have a bluetooth serial console.
  2. After installing a serial console such as putty, connect to the puck via bluetooth.
    * It will be called BT-42
