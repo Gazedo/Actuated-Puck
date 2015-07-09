@@ -1,6 +1,6 @@
 # Actuated-Puck
 
-##How To:
+## How To:
 Connect and Command
  1. In order to connect to the puck you must have a bluetooth serial console.
  2. After installing a serial console such as putty, connect to the puck via bluetooth.
@@ -19,8 +19,7 @@ Same as the p variable but for the derivative constant.
   * where the 000 is any possible combination of 3 digits.
  4. There will never be any feedback from the puck as the transmit line of the UART port is used to feed information to the sd card.
 
-
-##Planned upgrades
+## Planned upgrades
 Teensy 3.1
   * Would eliminate the 5V regulator and the 3V3 regulator.
   * Enable the chip to output the logged information by bluetooth rather than having to use the sd card
