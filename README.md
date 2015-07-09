@@ -27,5 +27,5 @@ Teensy 3.1
     * Would eliminate the need for the level shifter
 9 DoF IMU
   * Doesn't seem to be needed under testing however it is an option if excessive yaw drift is found which effects the readings.
-Driver Chip
+##Driver Chip
   * This driver chip (L6234) needs a very specialized commutation sequence in order to make the motor move and that code has been the major obstacle but there don't seem to be any better options on the market. An ideal chip would take the hall effect signals as input, a pwm signal from the MCU as input, and output the correct drive current and voltage.
